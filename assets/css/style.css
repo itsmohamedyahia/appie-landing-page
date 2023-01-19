@@ -1,0 +1,18 @@
+.arrow {
+  width: 1rem;
+}
+
+.nav-link {
+  display: inline-block;
+}
+
+.nav-links {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.nav-link:last-child {
+  margin-left: auto;
+}
