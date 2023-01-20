@@ -26,12 +26,9 @@
   color: var(--color-txt-prim);
 }
 
-.nav-link:last-child {
+.btn-cta {
   margin-left: auto;
   background: var(--color-acc);
-  border-radius: 100px;
-  cursor: pointer;
-  padding: 1.2rem 2.8rem;
 }
 .nav-link:last-child a {
   color: #fff;
@@ -54,11 +51,12 @@
   letter-spacing: -2px;
   font-weight: 400;
   color: var(--color-txt-prim);
-  margin-bottom: 3.6rem;
+  margin-bottom: 1.2rem;
 }
 
 .heading-prim-bold {
   display: block;
+  line-height: 11rem;
 }
 
 .hero-container {
@@ -69,7 +67,7 @@
 
 .hero-description {
   font-size: 2.4rem;
-  margin-bottom: 3.6rem;
+  margin-bottom: 4.8rem;
 }
 .hero-img-box {
   justify-self: end;
@@ -161,4 +159,76 @@
   font-size: 2.8rem;
   font-weight: 800;
   display: block;
+}
+
+/* ########### SECTION HOW ########### */
+
+.how-header {
+  position: relative;
+  margin-bottom: 6.4rem;
+}
+
+.heading-sec {
+  font-size: 4.8rem;
+  margin-bottom: 1.8rem;
+}
+.how-description {
+  font-size: 2.2rem;
+}
+.features-btn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translateY(50%);
+}
+
+.features-btn {
+  font-size: 1.8rem;
+  border: 2px solid var(--color-bg-prim);
+  text-decoration: none;
+  color: var(--color-txt-prim);
+}
+
+.feature-icon {
+  background-color: #2facfc;
+  width: 4.8rem;
+  height: 4.8rem;
+  font-size: 1.6rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-bottom: 3.2rem;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3.2rem;
+}
+
+.feature {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 4.8rem 12rem 4.8rem 4.8rem;
+}
+
+.feature-title {
+  font-weight: 600;
+  font-size: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+
+.feature-text {
+  font-size: 1.6rem;
+  color: rgb(75, 79, 96);
+  margin-bottom: 2.4rem;
+}
+
+.feature-more {
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: rgb(75, 79, 96);
 }
