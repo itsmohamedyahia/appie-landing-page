@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
 /*
 FOR DEFAULT VALUES OF STYLING SEE -> values.txt
 */
 
+/* ########### PRIMARY DEFAULTS ########### */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -13,8 +16,20 @@ html {
 }
 
 body {
-  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
 }
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+/* ########### TERTIARY DEFAULTS ########### */
+
+.arrow {
+  width: 1rem;
+}
+
 /* ########### HELPERS ########### */
 
 .flx {
@@ -23,4 +38,8 @@ body {
 
 .inblk {
   display: inline-block;
+}
+
+.grid {
+  display: grid;
 }
