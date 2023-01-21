@@ -3,6 +3,7 @@
   --color-txt-prim: #0e1133;
   --color-acc: #ff3e66;
   --color-acc-lt: #ff7894;
+  --color-txt-grey: rgb(75, 79, 96);
 }
 
 /* ########### NAVBAR ########### */
@@ -43,15 +44,6 @@
 }
 .section {
   padding: 9.6rem 0;
-}
-
-.heading-prim {
-  font-size: 8.4rem;
-  line-height: 8.4rem;
-  letter-spacing: -2px;
-  font-weight: 400;
-  color: var(--color-txt-prim);
-  margin-bottom: 1.2rem;
 }
 
 .heading-prim-bold {
@@ -168,13 +160,6 @@
   margin-bottom: 6.4rem;
 }
 
-.heading-sec {
-  font-size: 4.8rem;
-  margin-bottom: 1.8rem;
-}
-.how-description {
-  font-size: 2.2rem;
-}
 .features-btn {
   position: absolute;
   right: 0;
@@ -215,14 +200,11 @@
 }
 
 .feature-title {
-  font-weight: 600;
-  font-size: 2.4rem;
   margin-bottom: 1.6rem;
 }
 
 .feature-text {
-  font-size: 1.6rem;
-  color: rgb(75, 79, 96);
+  color: var(--color-txt-grey);
   margin-bottom: 2.4rem;
 }
 
@@ -230,5 +212,58 @@
   font-size: 1.6rem;
   font-weight: 600;
   text-decoration: none;
-  color: rgb(75, 79, 96);
+  color: var(--color-txt-grey);
+}
+
+/* ########### SECTION MARKETING ########### */
+
+/* .marketing-section {
+  margin-bottom: 9.6rem;
+} */
+
+.marketing-container {
+  padding: 4rem 8rem 0;
+  align-items: center;
+  grid-template-columns: 1.6fr 2fr;
+  gap: 8rem;
+}
+.marketing-heading {
+  max-width: 20ch;
+}
+
+.marketing-img-box {
+  overflow: hidden;
+  height: 47rem;
+}
+
+.marketing-img {
+  width: 100%;
+}
+
+.marketing-points {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.4rem;
+  margin-top: 4.8rem;
+}
+.mark-point {
+  display: flex;
+  gap: 1.2rem;
+}
+.point-icon {
+  align-self: baseline;
+  font-size: 2.4rem;
+  color: #32c36a;
+}
+
+.marketing-list {
+  display: flex;
+  gap: 3rem;
+}
+.marketing-item {
+  /* display: inline-block;
+   */
+  display: flex;
+  gap: 1.2rem;
+  list-style: none;
 }
