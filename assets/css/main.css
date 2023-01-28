@@ -79,9 +79,18 @@ body {
 }
 
 .btn-prim {
+  font-size: 1.8rem;
+  font-weight: 500;
+  border: 2px solid var(--color-bg-prim);
+  text-decoration: none;
+  color: var(--color-txt-prim);
   border-radius: 100px;
   cursor: pointer;
   padding: 1.2rem 2.8rem;
+}
+
+.fx-ht {
+  height: 43.5rem;
 }
 
 /* ########### TXT ########### */
