@@ -45,6 +45,10 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
+.grid-3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 /* ########### HEADINGS ########### */
 .heading-prim {
   font-size: 8.4rem;
@@ -82,12 +86,28 @@ body {
 .btn-prim {
   font-size: 1.8rem;
   font-weight: 500;
-  border: 2px solid var(--color-bg-prim);
   text-decoration: none;
   color: var(--color-txt-prim);
   border-radius: 100px;
   cursor: pointer;
   padding: 1.2rem 2.8rem;
+}
+
+.btn--outline {
+  border: 2px solid var(--color-bg-prim);
+}
+
+.btn--full,
+.btn--full:link,
+.btn--full:visited {
+  font-weight: 600;
+  background-color: #ff3e66;
+  color: #fff;
+  transition: all 0.3s;
+}
+.btn--full:hover,
+.btn--full:active {
+  background-color: #e6385c;
 }
 
 .fx-ht {
