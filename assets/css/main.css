@@ -61,6 +61,7 @@ body {
 }
 
 .subheading {
+  font-size: 1.6rem;
   font-weight: 500;
   margin-bottom: 1.6rem;
   color: #ff3e66;
