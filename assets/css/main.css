@@ -114,6 +114,37 @@ body {
   height: 43.5rem;
 }
 
+.change-media {
+  display: flex;
+  gap: 1.8rem;
+  position: absolute;
+}
+.change-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6rem;
+  height: 6rem;
+  font-size: 2rem;
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.change-btn--black {
+  border: 2px solid #eee;
+  transition: all 0.3s;
+}
+
+.ps-abs-1 {
+  bottom: 15%;
+  right: 2%;
+}
+
+.ps-abs-2 {
+  bottom: 25%;
+  right: 12%;
+}
 /* ########### TXT ########### */
 
 .txt-xl {

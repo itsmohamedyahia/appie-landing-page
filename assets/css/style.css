@@ -456,30 +456,6 @@
   display: none;
 }
 
-.change-media {
-  display: flex;
-  gap: 1.8rem;
-  position: absolute;
-  bottom: 15%;
-  right: 2%;
-}
-.change-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 6rem;
-  height: 6rem;
-  font-size: 2rem;
-  border-radius: 50%;
-  background-color: transparent;
-  cursor: pointer;
-}
-
-.change-btn--black {
-  border: 2px solid #eee;
-  transition: all 0.3s;
-}
-
 .video-btn {
   display: inline-block;
   margin-left: 6.4rem;
@@ -673,3 +649,68 @@
   opacity: 0;
 }
  */
+
+/* ########### SECTION TESTIMONIALS ########### */
+
+.testimonial-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+  background-image: url(/assets/img/testimonial-bg-2.jpg);
+  background-size: cover;
+  color: #fff;
+  margin: 0 15rem;
+  padding: 15rem 22rem;
+}
+
+.testimonial-img-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonial-img {
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+  width: 16rem;
+  height: 16rem;
+}
+
+.star-icons {
+  font-size: 1.6rem;
+  color: #ffb848;
+  margin-bottom: 0.4rem;
+}
+
+.testimonial-review {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.testimonial-text {
+  font-size: 2.2rem;
+  line-height: 1.7;
+  margin-bottom: 3rem;
+}
+
+.author-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testimonial-author {
+  font-size: 1.4rem;
+  line-height: 1.3;
+}
+.testimonial-name {
+  font-size: 2rem;
+  margin-bottom: 0.4rem;
+  display: block;
+}
+
+.change-btn--wt {
+  color: #eee;
+  border: 2px solid rgba(238, 238, 238, 0.317);
+}
