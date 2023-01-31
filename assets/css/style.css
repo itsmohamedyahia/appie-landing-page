@@ -668,12 +668,6 @@
   background-color: #effaf3;
 }
 
-/* This trick to make buttons aligned 
-.hidden-option {
-  opacity: 0;
-}
- */
-
 /* ########### SECTION TESTIMONIALS ########### */
 
 .testimonial-container {
@@ -954,4 +948,21 @@
 
 .hidden {
   display: none;
+}
+
+/* ########### STICKY ########### */
+
+.header {
+  height: 9rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 99999;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.hero {
+  margin-top: 9rem;
 }
